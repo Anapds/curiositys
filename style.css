@@ -1,0 +1,70 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background-image: url(imgs/6dc11726798611a9e2fa758a02188bf9.gif);
+    color: white;
+}
+
+.cabecalho {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    cursor: pointer;
+}
+
+.cabecalho-imagem{
+    height: 72px;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+    
+}
+
+.cabecalho-menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px
+}
+
+h1{
+
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.videos{
+    padding-left: 400px;
+  
+}
+
+.textos{
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    color: white;
+     
+}
+
+.hr{
+    margin-top: 50px;
+}
+
+.foto{
+    padding-left: 150px;
+}
+
+
+
